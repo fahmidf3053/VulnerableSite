@@ -87,7 +87,7 @@ namespace VulnerableWebApp.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult AddFriend(string to)
+        public IActionResult PokeFriend(string to)
         {
             string userName = HttpContext.Session.GetString("CurrentUser");
 
